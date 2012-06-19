@@ -1,13 +1,20 @@
-=== User Security Tools ===
-Contributors: ericktedeschi
-Tags: security, user, brute force, password, block, unblock, network install, password policy, password history
-Requires at least: 3.2.1
-Tested up to: 3.3.1
-Stable tag: 1.1.1
+User Security Tools
+===================
 
-Security Tools for user management: stop brute force, password policy, password reset, password history.
+Security Tools for user management: stop brute force, password policy, password 
+reset, password history.
 
-== Description ==
+    Contributors     : ericktedeschi
+    Tags             : security, user, brute force, password, block, unblock, 
+                       network install, password policy, password history
+    Requires at least: 3.2.1
+    Tested up to     : 3.3.1
+    Stable tag       : 1.1.1
+
+
+
+Description
+-----------
 
 User Security Tools provides some improvements to security in wordpress.
 
@@ -20,25 +27,35 @@ will be configurable).
 *   User Management: the network admin also can lock, unlock and reset user's password manually
 (in case of password reset, the user receives a new activation key and no data is lost).
 
-== Installation ==
+Installation
+------------
 
 1. Extract the zip file and upload all files into your plugins directory, making sure to put the files in their own unique folder. 
 2. Activate the plugin to the Network through the 'Plugins' menu in WordPress
 3. Go to "Settings" to configure the plugin and to "Users->User Security Tools" to manage theusers.
 
-== Screenshots ==
+Screenshots
+-----------
 
-1. Network Admin Settings
-2. User Management 
+![Network Admin Settings][scr1]
 
-== Changelog ==
+![User Management][scr2]
 
-= 1.0 =
+Changelog
+---------
+
+### 1.0
+
 * Initial Version 
 
-= 1.1 =
+### 1.1
+
 * Now both single installation mode and network installation mode are supported
 * Security Fixes and Improvements
 
-= 1.1.1 =
+### 1.1.1
+
 * BUG: The password policy is not applied when user's password is reset
+
+[scr1]: https://github.com/ericktedeschi/User-Security-Tools/raw/master/screenshot-1.png "Scheenshot: Network Administration Settings"
+[scr2]: https://github.com/ericktedeschi/User-Security-Tools/raw/master/screenshot-2.png "Scheenshot: User management"
